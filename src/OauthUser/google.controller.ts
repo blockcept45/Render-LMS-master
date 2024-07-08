@@ -40,8 +40,8 @@ export class GoogleController {
     res.cookie('userPicture', user.picture);
 
     // Redirect to your frontend URL
-    // res.redirect('http://localhost:3000/home');
-    res.send("save")
+    res.redirect('https://saarthilms.netlify.app/home');
+    // res.send("save")
   }
 
   // @Post('auth/google')
